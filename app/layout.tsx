@@ -11,10 +11,11 @@ export default function RootLayout({
       <head />
 
 
-      <body>
+      <body className="bg-gray-100 dark:bg-zinc-900 transition-all duration-700">
         <Header />
         
-        <div>{children}</div>
+        <div className="max-w-6xl max-auto">
+        {children}</div>
         </body>
     </html>
   )
